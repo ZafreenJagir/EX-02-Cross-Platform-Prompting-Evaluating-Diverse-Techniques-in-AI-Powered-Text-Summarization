@@ -54,12 +54,12 @@ Retail companies use blockchain to track the movement of goods between suppliers
 ```
 # ChatGPT:
 
-#### Zero Shot Prompting:
+### Zero Shot Prompting:
 
-### Prompt:
+#### Prompt:
 “Summarize the following article on blockchain technology in simple terms for undergraduate students."
 
-### Output:
+#### Output:
 Blockchain is a secure, tamper-proof database that stores data in linked blocks. It allows transparent transactions without needing a central authority.
 Importance: It ensures trust, reduces fraud, and updates all parties in real time.
 
@@ -69,21 +69,21 @@ Finance: Faster, reliable payments and accounts.
 Media: Track copyrights and pay artists fairly.
 Retail: Verify product authenticity and supply chains.
 
-#### Few Shot Prompting:
+### Few Shot Prompting:
 
-### Prompt:
+#### Prompt:
 Example : Here is a summary of a technical article on AI: ‘AI is a technology that enables machines to perform tasks that normally require human intelligence.’
 
 Now summarize the following article on blockchain technology in the same simple style for undergraduate students:
 
-### Output:
+#### Output:
 Blockchain is a technology that allows secure and transparent recording of transactions in a way that cannot be altered. It removes the need for a central authority and is used in areas like energy trading, finance, media copyright management, and retail supply chain tracking.
 
-#### Chain-of-Thought:
-### Prompt:
+### Chain-of-Thought:
+#### Prompt:
 “Read the following article on blockchain technology: 
 First, explain the main points step by step. Then, provide a concise summary suitable for undergraduate students.”
-### Output:
+#### Output:
 Step-by-step explanation of main points
 What is Blockchain Technology?
 Blockchain is a special type of database.
@@ -122,11 +122,11 @@ Concise Summary for Undergraduate Students
 Blockchain is a secure and tamper-proof database that stores data in linked blocks. It removes the need for a central authority and ensures trust and transparency in transactions. Industries use it in different ways: energy companies for peer-to-peer electricity trading, banks for faster payments, media for copyright management, and retail for supply chain tracking and product verification.
 
 
-#### Role-Based:
-### Prompt:
+### Role-Based:
+#### Prompt:
 “You are a university professor teaching first-year students. Summarize the following article on blockchain technology in simple, clear terms, highlighting the key concepts:"
 
-### Output:
+#### Output:
 What is Blockchain?
 Blockchain is a type of database that stores information in “blocks” which are linked together like a chain. Once something is recorded, it cannot be changed without agreement from everyone in the network. This makes it secure, transparent, and reliable for tracking transactions, payments, or accounts.
 Why is Blockchain Important?
@@ -141,29 +141,29 @@ In short: Blockchain is a secure, decentralized system that helps industries rec
 
 # Gemini:
 
-#### Zero Shot Prompting:
+### Zero Shot Prompting:
 
-### Prompt:
+#### Prompt:
 “Summarize the following article on blockchain technology in simple terms for undergraduate students."
-### Output:
+#### Output:
 Blockchain is a decentralized database that stores data in linked, chronological blocks, creating a tamper-proof and immutable ledger for transactions. Its primary purpose is to eliminate the need for a central, trusted authority, which can be a single point of failure. Instead, a network of users validates all transactions through consensus, making the system more secure and transparent. Various industries are adopting this technology, including finance for streamlined payments, retail for tracking product authenticity, and media for managing digital copyrights. This decentralized approach builds trust and efficiency across business networks.
 
-#### Few Shot Prompting:
+### Few Shot Prompting:
 
-### Prompt:
+#### Prompt:
 Example : Here is a summary of a technical article on AI: ‘AI is a technology that enables machines to perform tasks that normally require human intelligence.’
 
 Now summarize the following article on blockchain technology in the same simple style for undergraduate students:
 
-### Output:
+#### Output:
 Blockchain is a technology that creates a secure, decentralized, and tamper-proof ledger for transparent data sharing.
 
 
-#### Chain-of-Thought:
-### Prompt:
+### Chain-of-Thought:
+#### Prompt:
 “Read the following article on blockchain technology: 
 First, explain the main points step by step. Then, provide a concise summary suitable for undergraduate students.”
-### Output:
+#### Output:
 Main Points of the Article
 Here is a step-by-step breakdown of the core concepts and applications of blockchain technology as described in the article.
 1. What is Blockchain Technology?
@@ -180,11 +180,11 @@ Concise Summary for Undergraduate Students
 Blockchain is a decentralized database technology that creates a secure, unalterable record of transactions, eliminating the need for a central authority and enabling transparent data sharing across various industries.
 
 
-#### Role-Based:
-### Prompt:
+### Role-Based:
+#### Prompt:
 “You are a university professor teaching first-year students. Summarize the following article on blockchain technology in simple, clear terms, highlighting the key concepts:"
 
-### Output:
+#### Output:
 What is Blockchain?
 Imagine a digital notebook for transactions. Instead of a single person holding the notebook, thousands of people all have an identical copy. That's the basic idea of blockchain.
 It's a special kind of database where information is stored in "blocks." These blocks are then securely linked together in a long, chronological "chain." The key takeaway is that once a piece of information is recorded, you can't go back and change or delete it without everyone in the network agreeing. This makes the record tamper-proof and incredibly reliable.
@@ -202,8 +202,10 @@ ChatGPT outperformed Gemini in terms of simplicity, coherence, and user-friendli
 
 ## Result :
 
-### ChatGPT: Produced summaries that were accurate, coherent, simple, and easy to understand, making it ideal for undergraduate students.
-#### Gemini: Summaries were accurate and coherent, but slightly less simple and easy to read compared to ChatGPT.
+#### ChatGPT: 
+Produced summaries that were accurate, coherent, simple, and easy to understand, making it ideal for undergraduate students.
+#### Gemini:
+Summaries were accurate and coherent, but slightly less simple and easy to read compared to ChatGPT.
 
 Scoring Key (1–5):
 5 = Excellent, 4 = Good, 3 = Average, 2 = Poor, 1 = Very Poor
